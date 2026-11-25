@@ -1,0 +1,135 @@
+{
+    "dataset": "PASSTA LunchRoom",
+    "selected_images": [
+        "img01.jpg",
+        "img02.jpg",
+        "img03.jpg",
+        "img04.jpg",
+        "img05.jpg",
+        "img06.jpg",
+        "img07.jpg",
+        "img08.jpg",
+        "img09.jpg",
+        "img10.jpg",
+        "img11.jpg",
+        "img12.jpg"
+    ],
+    "number_of_images": 12,
+    "reference_image": "img07.jpg",
+    "max_image_dimension": 1000,
+    "undistortion_requested": false,
+    "undistortion_applied_to_all": false,
+    "harris": {
+        "max_corners": 800,
+        "quality_level": 0.01,
+        "min_distance": 5,
+        "k": 0.04,
+        "sift_keypoint_size": 16
+    },
+    "matching": {
+        "matcher": "BFMatcher",
+        "norm": "NORM_L2",
+        "knn_k": 2,
+        "lowe_ratio": 0.75
+    },
+    "ransac_reprojection_threshold": 5.0,
+    "canvas": {
+        "width": 1841,
+        "height": 1853
+    },
+    "final_panorama": {
+        "width": 1734,
+        "height": 1000,
+        "file": "outputs\\final_panorama.png"
+    },
+    "pairwise_statistics": [
+        {
+            "reference": "img01.jpg",
+            "source": "img02.jpg",
+            "good_matches": 105,
+            "inliers": 105,
+            "outliers": 0,
+            "inlier_ratio": 1.0
+        },
+        {
+            "reference": "img02.jpg",
+            "source": "img03.jpg",
+            "good_matches": 100,
+            "inliers": 100,
+            "outliers": 0,
+            "inlier_ratio": 1.0
+        },
+        {
+            "reference": "img03.jpg",
+            "source": "img04.jpg",
+            "good_matches": 108,
+            "inliers": 105,
+            "outliers": 3,
+            "inlier_ratio": 0.9722222222222222
+        },
+        {
+            "reference": "img04.jpg",
+            "source": "img05.jpg",
+            "good_matches": 104,
+            "inliers": 102,
+            "outliers": 2,
+            "inlier_ratio": 0.9807692307692307
+        },
+        {
+            "reference": "img05.jpg",
+            "source": "img06.jpg",
+            "good_matches": 93,
+            "inliers": 90,
+            "outliers": 3,
+            "inlier_ratio": 0.967741935483871
+        },
+        {
+            "reference": "img06.jpg",
+            "source": "img07.jpg",
+            "good_matches": 88,
+            "inliers": 88,
+            "outliers": 0,
+            "inlier_ratio": 1.0
+        },
+        {
+            "reference": "img07.jpg",
+            "source": "img08.jpg",
+            "good_matches": 75,
+            "inliers": 68,
+            "outliers": 7,
+            "inlier_ratio": 0.9066666666666666
+        },
+        {
+            "reference": "img08.jpg",
+            "source": "img09.jpg",
+            "good_matches": 56,
+            "inliers": 56,
+            "outliers": 0,
+            "inlier_ratio": 1.0
+        },
+        {
+            "reference": "img09.jpg",
+            "source": "img10.jpg",
+            "good_matches": 90,
+            "inliers": 90,
+            "outliers": 0,
+            "inlier_ratio": 1.0
+        },
+        {
+            "reference": "img10.jpg",
+            "source": "img11.jpg",
+            "good_matches": 83,
+            "inliers": 82,
+            "outliers": 1,
+            "inlier_ratio": 0.9879518072289156
+        },
+        {
+            "reference": "img11.jpg",
+            "source": "img12.jpg",
+            "good_matches": 65,
+            "inliers": 63,
+            "outliers": 2,
+            "inlier_ratio": 0.9692307692307692
+        }
+    ]
+}
