@@ -221,3 +221,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Python Environment
+.venv/
+
+# Dataset - Do not upload original images
+dataset/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local generated files
+.DS_Store
